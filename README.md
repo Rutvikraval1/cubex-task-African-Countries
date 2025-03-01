@@ -1,16 +1,67 @@
-# cubex_task
+# African Countries App - cubex
 
-A new Flutter project.
+## Overview
+This Flutter application provides details about African countries using the [REST Countries API](https://restcountries.com/). Users can browse a list of countries and view detailed information such as the capital, population, languages, and more.
 
-## Getting Started
+## Features
+- List of all African countries
+- Detailed country information
+- Interactive UI with Bloc state management
+- API integration with error handling
 
-This project is a starting point for a Flutter application.
+## Application Link
+🔗 [Download App](assets/apk/app-release.apk)
 
-A few resources to get you started if this is your first Flutter project:
+## Screenshots
+### Home Screen
+![Home Screen](assets/screenshots/screenshot1.png)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Country Detail Screen
+![Detail Screen](assets/screenshots/screenshot2.png)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Installation
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-repo/flutter-africa-bloc.git
+   ```
+2. Navigate to the project folder:
+   ```sh
+   cd flutter-africa-bloc
+   ```
+3. Install dependencies:
+   ```sh
+   flutter pub get
+   ```
+4. Run the app:
+   ```sh
+   flutter run
+   ```
+
+## Project Structure
+```
+flutter_africa_bloc/
+├── lib/
+│   ├── main.dart
+│   ├── core/
+│   ├── models/
+│   ├── repositories/
+│   ├── bloc/
+│   ├── screens/
+│   ├── widgets/
+├── pubspec.yaml
+```
+
+## API Integration
+This app fetches country data from [REST Countries API](https://restcountries.com/v3.1/region/africa).
+
+## Contribution
+1. Fork the repository.
+2. Create a new branch (`feature-branch`).
+3. Commit your changes.
+4. Push to the branch.
+5. Submit a pull request.
+
+## License
+This project is licensed under the MIT License.
+
+
