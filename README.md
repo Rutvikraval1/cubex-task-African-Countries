@@ -20,7 +20,7 @@ This Flutter application provides details about African countries using the [RES
 ## Installation
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-repo/flutter-africa-bloc.git
+   git clone https://github.com/Rutvikraval1/cubex-task-African-Countries.git
    ```
 2. Navigate to the project folder:
    ```sh
