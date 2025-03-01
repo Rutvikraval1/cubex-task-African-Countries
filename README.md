@@ -13,11 +13,9 @@ This Flutter application provides details about African countries using the [RES
 🔗 [Download App](assets/apk/app-release.apk)
 
 ## Screenshots
-### Home Screen
-![Home Screen](assets/screenshots/screenshot1.png)
-
-### Country Detail Screen
-![Detail Screen](assets/screenshots/screenshot2.png)
+| Home Screen                                                  |                       Country Detail Screen                      |
+|--------------------------------------------------------------|:--------------------------------------------------------:|
+| <img src="/assets/screenshots/screenshot1.png" width="200"/> | <img src="/assets/screenshots/screenshot2.png" width="200"/> |
 
 ## Installation
 1. Clone the repository:
